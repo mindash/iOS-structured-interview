@@ -15,8 +15,13 @@ We have organized the questions to better address each focus point.
 - [Objective-C](#objective-c)
 - [Basic Classes](#basic-classes)
 - [Memory Management](#memory-management)
+- [Battery Management](#battery-management)
+- [Geolocalisation](#geolocalisation)
+- [Notification](#notification)
 - [Algorithms](#algorithms)
 - [Plateform](#plateform)
+- [Network](#network)
+- [Binding](#binding)
 - [Security](#security)
 - [Tools](#tools)
 - [Internationalization-Localization](#internationalization-localization)
@@ -26,6 +31,7 @@ We have organized the questions to better address each focus point.
 - [watchOS](#watchoS)
 - [tvOS](#tvos)
 - [SwiftUI](#swiftui)
+- [Graphic](#graphic)
 - [iOS13](#ios13)
 
 ## Swift
@@ -46,7 +52,6 @@ We have organized the questions to better address each focus point.
 - How do we check that Optional methods are implemented at Runtime?
 - What are accessor methods?
 - Advantages of categories?
-- KVO declaration, usage?
 - KVC declaration, usage?
 
 ## Basic Classes
@@ -74,12 +79,28 @@ We have organized the questions to better address each focus point.
 - ARC
 - weak
 - strong
+- Unowned
 - Swift structures
 - Swift classes
-- Unowned
 - Retain cycle problems, analysis, solutions?
 - Delegation, property attributes
 - Low memory, problems, analysis, solutions?
+
+## Battery Management
+- BackgroundTasks
+- Analysis
+
+## Geolocalisation
+- Significant Change
+- Geofencing
+- Background
+
+## Notification
+- Payload
+- Invisible Notif
+- Background execution
+- Notification Service Extension
+- Notification Content Extension
 
 ## Algorithms
 - What are algorithms?
@@ -107,6 +128,15 @@ We have organized the questions to better address each focus point.
 - IBInspectable
 - IBDesignable
 
+## Network
+- NSURLRequest
+- Alamofire
+- OAuth/OAuth2
+
+## Binding
+- KVO
+- Rx
+ 
 ## Security
 - http / https / TLS
 - App Transport Security
@@ -128,9 +158,9 @@ We have organized the questions to better address each focus point.
 - SwiftPacketManager
 - Cocoapods
 - SonarQube
+- SwiftLint
 - Fabric 
 - Firebase
-
 
 ## Internationalization / Localization
 - Primary language on iTunesConnect
@@ -148,6 +178,7 @@ We have organized the questions to better address each focus point.
 - MVVM 
 - Decorator
 - Observer Pattern
+- VIPER
 
 ## Data Storage 
 - UserDefault
@@ -182,10 +213,15 @@ IN PROGRESS
 - UIHostingController
 - UIViewRepresentable
 
+## Graphic
+- SceneKit
+- ARKit
+
 ## iOS13
 - New OS features?
 - Dark Mode rendering
 - Combine
+- AuthenticationService
 
 Domains             |  The Battle  |  Results | Cups | Seniority
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
