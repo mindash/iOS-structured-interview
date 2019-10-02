@@ -14,14 +14,13 @@ We have organized the questions to better address each focus point.
 - [swift](#swift)
 - [Objective-C](#objective-c)
 - [Basic Classes](#basic-classes)
-- [Memory Management](#memory-management)
-- [Battery Management](#battery-management)
 - [Geolocalisation](#geolocalisation)
 - [Notification](#notification)
 - [Algorithms](#algorithms)
 - [Plateform](#plateform)
+- [Memory Management](#memory-management)
+- [Battery Management](#battery-management)
 - [Network](#network)
-- [Binding](#binding)
 - [Security](#security)
 - [Tools](#tools)
 - [Internationalization-Localization](#internationalization-localization)
@@ -86,15 +85,6 @@ We have organized the questions to better address each focus point.
 - Delegation, property attributes
 - Low memory, problems, analysis, solutions?
 
-## Battery Management
-- BackgroundTasks
-- Analysis
-
-## Geolocalisation
-- Significant Change
-- Geofencing
-- Background
-
 ## Notification
 - Payload
 - Invisible Notif
@@ -111,31 +101,51 @@ We have organized the questions to better address each focus point.
 
 ## Plateform  
 - AutoLayout / Auto resizing masks
-- XIB
-- XIB vs NIB
-- Storyboard
-- arm processors
-- armV7/armV7s, arm64
-- GCD
-- App Thinning
-- What is a .dSYM file?
 - Xcode 11, targetable OS versions?
-- @1x, @2x, @3x
-- On-Demand Resources
-- How to perform multitasking?
-- NSLocalizedString
-- Bitcode
 - IBInspectable
 - IBDesignable
+
+### Architectures
+- armV7
+- armV7s
+- arm64
+- arm64, binary size ? in memory size?
+
+### Threading
+- How to perform multitasking?
+- GCD
+- DispatchQueue
+- BackgroundTasks
+- MainThread 
+- MainThread / MainQueue ? 
+- Other Thread / Queue? 
+- Queue priorities?
+- How to perform multitasking?
+
+### Battery Management
+- BackgroundTasks
+- Analysis
+
+### Geolocalisation
+- Significant Change
+- Geofencing
+- Background
+
+### App Packaging
+- @1x, @2x, @3x
+- On-Demand Resources
+- Bitcode
+- What is a .dSYM file?
+- App Thinning
+- Storyboard
+- XIB
+- XIB vs NIB
+- NSLocalizedString
 
 ## Network
 - NSURLRequest
 - Alamofire
 - OAuth/OAuth2
-
-## Binding
-- KVO
-- Rx
  
 ## Security
 - http / https / TLS
@@ -179,6 +189,8 @@ We have organized the questions to better address each focus point.
 - Decorator
 - Observer Pattern
 - VIPER
+- Binding 
+- Rx
 
 ## Data Storage 
 - UserDefault
